@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-#Script: Ops 401 Class 07 Ops Challenge Solution
+#Script: Ops 401 Class 08 Ops Challenge Solution
 # Author: Dericus Horner
-# Date of latest revision:04/25/2023
+# Date of latest revision:04/26/2023
 # Assistance from Chat GPT
 
 # Main
