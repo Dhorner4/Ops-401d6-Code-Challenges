@@ -6,7 +6,7 @@
 
 # Main
 import ipaddress
-from scapy.all import IP, sr1, TCP, send
+from scapy.all import IP, sr1, TCP, ICMP, send
 
 def tcp_port_scan(IP_add):
     # Define port range or specific set of ports to scan
