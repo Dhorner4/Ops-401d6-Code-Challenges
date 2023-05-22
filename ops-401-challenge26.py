@@ -9,6 +9,7 @@ import ctypes
 import logging
 from cryptography.fernet import Fernet
 
+# Main
 # Setup logging
 logging.basicConfig(filename='app.log', level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -23,13 +24,11 @@ def write_key():
 
 def load_key():
     try:
-        key = open("key.key", "rb").read()
-        logging.info("Key loaded successfully.")
-        return key
+        return open("key.key", "rb").read()
     except Exception as e:
         logging.error(f"Error occurred in load_key: {str(e)}")
 
-# Add error handling to other functions...
+# Your other functions with added logging and error handling...
 
 while True:
     try:
@@ -40,3 +39,5 @@ while True:
     except Exception as e:
         logging.error(f"Error occurred in main loop: {str(e)}")
         print("An error occurred. Check the log for more information.")
+        
+        # done
