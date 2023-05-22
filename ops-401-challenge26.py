@@ -4,12 +4,12 @@
 # Date of latest revision:05/22/2023
 # Assistance from Chat GPT
 
+# Main
 import os
 import ctypes
 import logging
 from cryptography.fernet import Fernet
 
-# Main
 # Setup logging
 logging.basicConfig(filename='app.log', level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
