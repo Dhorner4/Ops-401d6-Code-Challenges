@@ -47,6 +47,11 @@ def load_key():
 
 # Your other functions with added logging and error handling...
 
+# Test messages
+logger.info("Info message test.")
+logger.warning("Warning message test.")
+logger.error("Error message test.")
+
 while True:
     try:
         method_choice = input("Pick one of the following choices:\n1. Encrypt file\n2. Decrypt file\n3. Encrypt message\n4. Decrypt message\n5. Encrypt folder\n6. Decrypt folder\n7. Ransomware simulation\n8. Exit\n")

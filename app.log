@@ -1,1 +1,4 @@
 2023-05-22 16:52:40,007 - ERROR - Error occurred in main loop: Invalid choice.
+2023-05-24 16:37:32,591 - INFO - Info message test.
+2023-05-24 16:37:32,593 - WARNING - Warning message test.
+2023-05-24 16:37:32,593 - ERROR - Error message test.
